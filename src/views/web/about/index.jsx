@@ -31,32 +31,32 @@ function About(props) {
       <p>本博客使用的技术为 react v16.8 + antd + koa2 + mysql</p>
       <p>
         源码地址为{' '}
-        <a target="_blank" rel="noreferrer noopener" href="https://github.com/gershonv/react-blog">
+        <a target="_blank" rel="noreferrer noopener" href="https://github.com/xuelixiang/reactBlog">
           github
         </a>
         ，仅供参考，不做商业用途！
       </p>
       <Divider orientation="left">关于我</Divider>
       <ul className="about-list">
-        <li>姓名：郭少威</li>
-        <li>学历专业：本科 软件工程</li>
+        <li>姓名：薛理想</li>
+        <li>学历专业：本科 计算机科学与技术</li>
         <li>
           联系方式：
-          <Icon type="qq" /> 434358603
+          <Icon type="qq" /> 524376211
           <Divider type="vertical" />
           <i className="iconfont icon-email" />
-          <a href="mailto:gershonv@163.com">gershonv@163.com</a>
+          <a href="mailto:xuelixiang@outlook.com">xuelixiang@outlook.com</a>
         </li>
         <li>坐标：广州市</li>
         <li>
           其他博客地址：
-          <a target="_blank" rel="noreferrer noopener" href="https://gershonv.github.io/">
+          <a target="_blank" rel="noreferrer noopener" href="https://xuelixiang.github.io/">
             hexo 博客
           </a>
-          <Divider type="vertical" />
+          {/* <Divider type="vertical" />
           <a target="_blank" rel="noreferrer noopener" href="https://juejin.im/user/5acac6c4f265da2378408f92">
             掘金主页
-          </a>
+          </a> */}
         </li>
         <li>
           技能
@@ -94,7 +94,7 @@ function About(props) {
         <li>
           个人
           <ul>
-            <li>偶尔玩玩游戏、看看书</li>
+            <li>偶尔玩玩游戏、打打球</li>
             <li>慢热型、平常比较好说话。联系方式在上面，欢迎交流！</li>
           </ul>
         </li>
