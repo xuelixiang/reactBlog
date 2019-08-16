@@ -54,7 +54,7 @@ exports.getEmailData = (commentData, article, onlyComment = false) => {
     title = article.id !== -1 ? article.title : '关于页面',
     pos = article.id !== -1 ? '文章' : '',
     content = contentList.join(''),
-    subject = !onlyComment ? `郭大大的博客 - 您在${pos}【${title}】中的评论得到了新的回复` : `郭大大的博客 - 您的${pos}【${title}】有了新的评论`
+    subject = !onlyComment ? `情非得已的博客 - 您在${pos}【${title}】中的评论得到了新的回复` : `情非得已的博客 - 您的${pos}【${title}】有了新的评论`
 
   let html = `
     您在${pos}【<a href="${link}">${title}</a>】中的评论得到了新的回复： 

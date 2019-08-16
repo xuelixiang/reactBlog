@@ -26,7 +26,7 @@ const sendMail = async ({ receiver, html, subject, text }) => {
   let info = await transporter.sendMail({
     from: emailTransporterConfig.auth.user, // sender address
     to: receiver, // list of receivers
-    subject: subject || '郭大大的博客 - 您的评论获得新的回复！', // Subject line
+    subject: subject || '情非得已的博客 - 您的评论获得新的回复！', // Subject line
     text: text || '您的评论获得新的回复！', // plain text body
     html: html // html body
   })

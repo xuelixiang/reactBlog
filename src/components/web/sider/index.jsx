@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import './index.less'
 import { connect } from 'react-redux'
-import avatar from '@/assets/author_avatar.png'
+import avatar from '@/assets/author_avatar.jpg'
 import { Link } from 'react-router-dom'
 import { Divider, Tag, Icon } from 'antd'
 
@@ -46,7 +46,7 @@ class BolgSider extends Component {
     return (
       <div className="sider-wrapper">
         <img src={avatar} className="sider-avatar" alt="" />
-        <h2 className="name">郭大大</h2>
+        <h2 className="name">情非得已</h2>
         <div className="title">前端打杂人员，略微代码洁癖</div>
         <ul className="link-list">
           <li>
