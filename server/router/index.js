@@ -28,6 +28,7 @@ router.delete('/reply/del', CommentController.del)
 router.get('/comment/getAboutComments', CommentController.getAboutComments)
 
 router.get('/', async ctx => {
+  console.log('hello koa2');
   ctx.body = 'hello koa2'
 })
 
